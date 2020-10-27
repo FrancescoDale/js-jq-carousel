@@ -35,14 +35,14 @@ $(document).ready(function() {
         activePic.removeClass('active');
 
         //verifica se esiste una img precedente, se esiste gli assegna la classe active
-        if (activePic.prev('img').lenght) {
+        if (activePic.prev('img').length) {
             activePic.prev('img').addClass('active');
         }
 
-        // altrimenti, la classe active viene assegnata al'ultima' immagine in modo da creare un loop
-        
+        // altrimenti, la classe active viene assegnata al'ultima immagine in modo da creare un loop
+
         else {
-            $('.pics_container :last-child').addClass('active');
+            $('.pics_container img:last-of-type').addClass('active');
         }
 
     }
