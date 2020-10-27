@@ -23,6 +23,13 @@ $(document).ready(function() {
     }
     );
 
+    // blocco che riguarda il click sulla freccia di sinistra
+    $('.left_arrow i').click(function() {
+
+
+    }
+    );
+
 
 
 }
