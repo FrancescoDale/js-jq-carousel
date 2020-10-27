@@ -8,5 +8,25 @@
     width: 900px;
     height: 450px;
     background-color: green;
-    margin: 150px 0;
+    margin: 150px 150px;
+}
+
+/* posiziono le frecce ai lati del pic pics_container */
+
+.left_arrow, .right_arrow {
+    float: left;
+    display: flex;
+    width: 35px;
+    height: 100%;
+}
+
+.left_arrow i, .right_arrow i {
+    margin: auto;
+}
+
+.pics_container {
+    float: left;
+    height: 100%;
+    width: calc(100% - 70px);
+    background-color: red;
 }
