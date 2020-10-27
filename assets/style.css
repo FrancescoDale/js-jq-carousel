@@ -41,4 +41,11 @@ h1 {
 
 .pics_container img {
     display: none;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.pics_container img.active {
+    display: block;
 }
