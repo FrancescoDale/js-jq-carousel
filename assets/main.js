@@ -48,7 +48,11 @@ $(document).ready(function() {
     }
     );
 
-
+    // rendo i pallini cliccabili
+    $('.fa-circle').click(function() {
+        console.log('attivo');
+    }
+    );
 
 }
 );
