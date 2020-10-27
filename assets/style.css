@@ -9,6 +9,7 @@
     height: 450px;
     /* background-color: green; */
     margin: 150px 150px;
+    position: relative;
 }
 
 h1 {
@@ -48,4 +49,12 @@ h1 {
 
 .pics_container img.active {
     display: block;
+}
+
+/******************** pallini **************/
+
+.dots {
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
 }
