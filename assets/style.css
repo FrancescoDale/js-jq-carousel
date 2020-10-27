@@ -34,7 +34,7 @@ h1 {
     float: left;
     height: 100%;
     width: calc(100% - 70px);
-    background-color: red;
+    /* background-color: red; */
 }
 
 /*------------------------------------------------*/
